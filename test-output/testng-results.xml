@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-05T17:54:50 IST" name="Default suite" finished-at="2024-08-05T17:54:54 IST" duration-ms="3920">
+    <groups>
+    </groups>
+    <test started-at="2024-08-05T17:54:50 IST" name="Default test" finished-at="2024-08-05T17:54:54 IST" duration-ms="3920">
+      <class name="RestAPIlearning.HTTPRequests">
+        <test-method signature="PostUser()[pri:2, instance:RestAPIlearning.HTTPRequests@5a45133e]" started-at="2024-08-05T17:54:50 IST" name="PostUser" finished-at="2024-08-05T17:54:53 IST" duration-ms="3323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostUser -->
+        <test-method signature="UpdateUser()[pri:3, instance:RestAPIlearning.HTTPRequests@5a45133e]" started-at="2024-08-05T17:54:53 IST" name="UpdateUser" finished-at="2024-08-05T17:54:54 IST" depends-on-methods="RestAPIlearning.HTTPRequests.PostUser" duration-ms="558" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateUser -->
+      </class> <!-- RestAPIlearning.HTTPRequests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
